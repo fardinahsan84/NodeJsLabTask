@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Add Employee page</legend>
+            <table>
+              <tr>
+                <td>Employee name</td>
+                <td><input type="text" name="empName"></td>
+              </tr>
+              <tr>
+                <td>Employee Phone</td>
+                <td><input type="text" name="empPhn"></td>
+              </tr>
+              <tr>
+                <td>Employee Address</td>
+                <td><input type="text" name="empAdd"></td>
+              </tr>
+              <tr>
+                <td>Gender</td>
+                <td>  <input type="radio" id="male" name="gender" value="male">
+                      <label for="male">Male</label><br>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="female">Female</label><br>
+                </td>
+              </tr>
+              <tr>
+                <td><div class="dropdown">
+                  <button class="dropbtn">Emp Designation</button>
+                  <div class="dropdown-content">
+                    <a href="#">Design</a>
+                    <a href="#">Supply</a>
+                    <a href="#">Install</a>
+                    <a href="#">Test</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="submit" value="Add"></td>
+              </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
